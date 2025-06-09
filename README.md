@@ -1,60 +1,46 @@
-<image width="100%" src="https://user-images.githubusercontent.com/62475313/95633506-ca738b80-0a55-11eb-9c5f-170c0169bef7.png" frameborder="0" ></image>
+# Interview Platform
 
-</br>
-</br>
-</br>
-
-**InterCamp is an interview preparation platform, where users can check their knowledge on a specific topic.**
-
-**Users can log in and save their favorite questions.**
-
-## CONTRIBUTE
-
-1. Check out [Contributing](https://github.com/Inter-Camp/InterCamp/blob/master/CONTRIBUTING.md) to learn about the process.
-
-
-3. Add your name to [Contributors](https://github.com/Inter-Camp/start-here-guides) following this guideline if you want to be a part of the project.
-
-
-5. We're exited to have you here!
-
-
-## &#9881; STACK
-
-**React & Redux**
-
-**Material UI and SASS.**
-
-Sign-In workflow with **Firebase.**
-
-Authenticate Using **Google Sign-In, GitHub Sig-in, Facebook Login.**
-
-**Handling account-exists** with different credential errors.
-
-**Redux-Redirect** to the Quiz page after successful login.
-
-**Store quiz data in Firestore** and make **Asynchronous calls** with a help of **Redux-thunk** library.
-
-<image width="100%" src="https://user-images.githubusercontent.com/62475313/95633508-cb0c2200-0a55-11eb-9165-23a409f34ad0.png" frameborder="0" ></image>
+A modern web-based interview platform designed to facilitate seamless candidate assessments through video calls, quizzes, and authentication.
 
 ---
-## Development
-```aidl
-// install node 18
-nvm install 18
-```
 
-```aidl
-// update your react-scripts package to latest version
-npm i react-scripts@latest
-```
+## &#9881; Technology Stack
 
-```aidl
-// install dependencies
-npm install
-```
+- **React & Redux**: For building a responsive and scalable frontend with state management.
+- **Material UI & SASS**: For sleek UI components and modular styling.
+- **Firebase Authentication**: 
+  - Sign-in workflow supporting multiple providers:
+    - Google Sign-In
+    - GitHub Sign-In
+    - Facebook Login
+  - Handles account-exists errors gracefully when signing in with different credentials.
+- **Redux-Redirect**: Automatically redirects users to the Quiz page upon successful login.
+- **Firestore Database**: Stores quiz data and user progress securely in the cloud.
+- **Redux-thunk**: Manages asynchronous calls and side effects for fetching and storing data.
 
-```aidl
-// build app 
-npm run build
-```
+---
+
+## Features
+
+- Multiple social sign-in options for easy and secure authentication.
+- Robust error handling for credential conflicts.
+- Seamless redirect to quizzes post-login.
+- Real-time storage and retrieval of quiz data with Firestore.
+- Clean, modern UI with Material UI components and custom SASS styling.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm or yarn package manager
+- Firebase account and project setup
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cl0ud08/Interview-Platform
+   cd interview-platform
