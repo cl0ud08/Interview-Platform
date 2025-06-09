@@ -1,0 +1,52 @@
+.header {
+  height: 70px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .MuiButton-outlinedPrimary {
+    background-color: white;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+
+    .logo-image-container {
+      height: 40px;
+      width: 40px;
+      .logo-image {
+        height: 100%;
+        padding-right: 6px;
+      }
+    }
+  }
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .option {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .user-fav-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 20px;
+  }
+}
